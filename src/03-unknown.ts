@@ -27,7 +27,6 @@ if(typeof unknownVAr === "boolean"){
   let isNewV2: boolean = unknownVAr;
 }
 
-
 const parse = (str: string): unknown => {
   return JSON.parse(str);
 }
