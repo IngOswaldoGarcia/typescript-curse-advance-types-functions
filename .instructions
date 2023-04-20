@@ -1,0 +1,22 @@
+#To start a project with typescript
+
+#Init the json project saying yes to everything
+npm init -y
+
+#Install typescript
+npm i typescript --save-dev
+
+#check typescript version
+npx tsc --version
+
+#init typescript project
+npx tsc --init
+
+#uncomment line "outDir": "./", and add "/dist" to add files in this folder
+
+#use ts node to execute typescript files without transpile
+#Install
+npm install -D ts-node
+
+#to execute files
+npx ts-node src/demo.ts
