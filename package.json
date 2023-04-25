@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/IngOswaldoGarcia/typescript-curse-advance-types-functions#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
