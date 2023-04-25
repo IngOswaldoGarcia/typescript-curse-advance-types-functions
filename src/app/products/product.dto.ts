@@ -13,3 +13,7 @@ export interface UpdateProductDto extends Partial<createProductDTO> {}
 
 //Required ask for all attributes
 export interface UpdateProductDtoRequired extends Required<createProductDTO> {}
+
+//Applies to all attributes readonly
+export interface FindProductDto extends Readonly<Partial<Product>> {}
+
