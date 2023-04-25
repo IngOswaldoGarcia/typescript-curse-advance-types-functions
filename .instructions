@@ -22,3 +22,6 @@ npm install -D ts-node
 npx ts-node src/demo.ts
 
 #Is not possible define interfaces with only one type
+
+
+#Uses omit to avoid fields and pick to only choose specific fields

@@ -1,5 +1,6 @@
-import {Category} from './categories/category.model';
+import {Category} from '../categories/category.model';
 import { BaseModel } from './../base.model';
+import { createProduct } from '../../05-optionals';
 
 export type Sizes = 'S' | 'M' | 'L' | 'XL';
 
