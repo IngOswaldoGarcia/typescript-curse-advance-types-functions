@@ -33,15 +33,9 @@ export const  updateProduct = (id: Product['id'], changes: UpdateProductDto): Pr
 }
 
 export const  findProducts = (dto: FindProductDto): Product[] => {
+  //dto.tags = [];
+  //dto.tags?.pop();
+  //dto.tags?.push();
   return products;
 }
-
-export const  deleteProduct = (id: string) => {
-  //code
-}
-
-export const  getProduct = (id: string) => {
-  //code
-}
-
 
